@@ -14,7 +14,17 @@ Reference:https://blog.csdn.net/weixin_40448140/article/details/105904836
 
 VScode相关插件：
 
-​		
+​		Language Support for Java by RED HAT
+
+​		Debugger for Java
+
+​		Java Test Runner 
+
+​		Maven for Java
+
+​		Project Manager for Java
+
+使用VScode运行面向对象的Java程序不生成 类名.class的文件，直接在IDE中编译生成了结果
 
 ## 第一个java程序
 
