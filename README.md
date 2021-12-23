@@ -49,13 +49,25 @@ VSCode相关插件：
 
 ### Doubt
 
-1.使用VSCode运行面向对象的Java程序不生成 类名.class的文件，直接在IDE中编译生成了结果
+1.使用VSCode（类似的ide也有相似的问题）运行面向对象的Java程序不生成 类名.class的文件，直接在IDE中编译生成了结果
 
 2.使用VSCode进行项目管理的时候，无法使用全部的git 命令，有两种解决办法：
 
 一、使用git bash(conventional way)
 
 二、研究一下VS Code
+
+#### 个人思考
+
+Java程序是一个由各种的类组成的面向对象编程完成的程序，初始就是创建一个main class
+
+object(对象) was been built in heap
+
+引用书中QA：
+
+什么是java程序？如何进行提交？
+
+Java程序是由一组类所组成，其中有一个类会带有启动用的main()方法。因此程序员必须要编写一或多个类并一次提交。若用户没有Java虚拟机则必须一并提交才能让应用程序运行起来。有数种安装程序能够让你集成包装类与不同平台使用的Java虚拟机到安装光盘上。如此就能让用户同时安装正确版本的Java虚拟机（如果之前没有安装的话）。
 
 ## 第一个java程序
 
@@ -74,6 +86,8 @@ public class HelloWorld {
 }
 
 ```
+
+
 
 ## 进度追踪
 
